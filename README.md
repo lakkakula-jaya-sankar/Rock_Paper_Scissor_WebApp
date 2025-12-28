@@ -1,70 +1,80 @@
-# Getting Started with Create React App
+### ✊✋✌️ Rock Paper Scissors Game (React)
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This is a simple and interactive Rock Paper Scissors game built using React functional components and Hooks. The game allows a user to play against the computer, with real-time score tracking and visual feedback for each round.
 
-## Available Scripts
+### Deployment Link
 
-In the project directory, you can run:
+(https://lakkakula-jaya-sankar.github.io/Rock_Paper_Scissor_WebApp/)
 
-### `npm start`
+### 🚀 Features
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+🎮 Play against the computer
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+🔢 Live score tracking (User vs Computer)
 
-### `npm test`
+🤖 Random computer choice generation
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+🎯 Win / Lose / Draw logic
 
-### `npm run build`
+🎨 Dynamic result colors for better visual feedback
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+🖱️ One-click gameplay using buttons
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+📱 Responsive UI layout
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### 🛠️ Technologies Used
 
-### `npm run eject`
+React.js
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+React Hooks (useState)
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Bootstrap for layout and styling
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+SVG icons for game choices
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+### 🧠 Game Logic
 
-## Learn More
+User selects Rock, Paper, or Scissors
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+Computer randomly selects a choice
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+The result is calculated using standard rules:
 
-### Code Splitting
+Rock beats Scissors
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+Scissors beats Paper
 
-### Analyzing the Bundle Size
+Paper beats Rock
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+Scores update automatically after each round
 
-### Making a Progressive Web App
+Result messages and colors change dynamically based on outcome
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+### 🎨 UI Highlights
 
-### Advanced Configuration
+Green text for Winner
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+Red text for Loser
 
-### Deployment
+Blue text for Draw
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+Clear separation of User and Computer sections
 
-### `npm run build` fails to minify
+### 📦 Installation & Run
+npm install
+npm start
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+### 📌 Key Highlights
+
+Clean and beginner-friendly React logic
+
+Efficient state management using arrays
+
+Reusable and readable component structure
+
+Ideal project for React fundamentals practice
+
+### 📄 License
+
+This project is open-source and free to use for learning and personal projects.
